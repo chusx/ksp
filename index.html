@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>spaaaaace</title>
+    <script src="./matter.js"></script>
+    <script src="./dat.gui.min.js"></script>
+    <link rel="stylesheet" href="./ksp.css">
+  </head>
+  <body>
+    <div class="title" id="title">
+      <h1 class="tt"><a href="http://kspga.me">kinetic science project</a></h1>
+      <h2 class="tt">in homage to the brilliant <a href="https://kerbalspaceprogram.com">ksp</a></h2>
+    </div>
+    <div class="hud" id="hud"></div>
+    <div class="help" id="help">
+      <a class="tt" id="helptoggle" href="javascript:visible()">[hide help]</a>
+      <div class="tt helptext" id="helptext">
+        <p>click on canvas to capture keys</p>
+        <p>left shift = increase throttle</p>
+        <p>left control = decrease throttle</p>
+        <p>q/e = counter/clockwise torque</p>
+        <p>w/s/a/d = joystick maneuvers</p>
+        <p>t = toggle sas</p>
+        <p>r = toggle rcs</p>
+        <p>written with <a href="https://github.com/liabru/matter-js">matter.js</a> by <a href="http://nibor.cc">nibor.cc</a> <3</p>
+      </div>
+    </div>
+    <script src="./ksp.js"></script>
+    <script>ksp()</script>
+    <!-- to the moon -->
+  </body>
+</html>
